@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>HTML Target Frames</title>
+	  <style>
+	  .image{
+	  background-image:url("https://media.giphy.com/media/TxVVB6PfWMjE4/giphy.gif");
+	  }
+	  </style>
+   </head>
+	<frameset rows="110,*">
+	<frameset cols = "*">
+	
+      <frame src = "persinfo.html" name = "menu_page" noresize="noresize" scrolling="no" />
+      
+   </frameset>
+   <frameset cols = "300, *">
+      <frame src = "1pg.html" name = "menu_page" />
+	  
+      <frame src="myimg.html"  name = "main_page" noresize="noresize" scrolling="no" />
+	  
+      
+      <noframes>
+         <body>Your browser does not support frames.</body>
+      </noframes>
+   </frameset>
+   </frameset>
+	
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>
+Job Application
+</title>
+<style>
+body{
+margin:35px;
+}
+#bt
+{
+background-color:green;
+height:50px;
+width:100px;
+}
+</style>
+</head>
+<body bgcolor="yellow" align="center">
+<h1 align="center">Job Application Portal</h1>
+<form action="">
+<table border="0" width="40%" align="center">
+<tr>
+  <td>First name:</td>
+ <td> <input type="text" name="firstname" required/><br/><br/></td>
+  </tr>
+  <tr>
+  <td>Last name:</td>
+  <td><input type="text" name="lastname" required/><br/><br/></td>
+  </tr>
+  <tr>
+  <td>Gender:</td>
+ <td> <input type="radio" name="gender" value="male" align="center" checked> Male<br/>
+  <input type="radio" name="gender" value="female" align="center"> Female<br/>
+  <input type="radio" name="gender" value="other" align="center"> Other<br/><br/></td>
+  </tr>
+ <tr>
+<td> Companies:</td>
+ <td> <select name="companies">
+  <option value="sel" selected>Select Company</option>
+  <option value="wipro">WIPRO</option>
+  <option value="tcs">TCS</option>
+  <option value="techmahin">TECH MAHINDRA</option>
+  <option value="cog">COGNIZENT</option>
+</select><br/><br/></td>
+</tr>
+<tr>
+<td> Job Type:</td>
+ <td> <select name="companies">
+  <option value="sel" selected>Select job type</option>
+  <option value="wipro">WEB DEVELOPER</option>
+  <option value="tcs">BACKEND DEVELOPER</option>
+  <option value="techmahin">MANAGER</option>
+  
+</select><br/><br/></td>
+</tr>
+<tr>
+<td>CV Link</td>
+<td><input type="text" name="cv" value="Paste ur cv link here" required/></td>
+</tr>
+</table>
+</form>
+<p> Why should you be offered the job?</p>
+<textarea name="message" rows="10" cols="50">
+Write at least 100 characters.
+</textarea>
+<br/>
+<br/>
+<button id="bt" type="button" onclick="Submitted">SUBMIT</button>
+</body>
+
+</html>
